@@ -3,7 +3,7 @@ import string
 from collections import Counter
 
 def generate_secure_password(length=20):
-    min_count = 5  # Minimum count for each character typ
+    min_count = 5  # Minimum count for each character typE
     min_total = min_count * 4  # Total minimum characters needed
     
     if length < min_total:
